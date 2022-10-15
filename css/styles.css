@@ -8,3 +8,16 @@ header img{
     height: 80px;
     background-color: aqua;
 }
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    color:lightgrey;
+    text-transform: uppercase;
+    background-color: rgb(47, 67, 67);
+    margin: 0 40px 0 40px;
+    padding: 0 20px 0 20px;
+}
