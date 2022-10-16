@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header img{
@@ -21,3 +22,27 @@ section {
     margin: 0 40px 0 40px;
     padding: 0 20px 0 20px;
 }
+
+table {
+    border: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 200px;
+    background-color: grey;
+}
+
+th,td {
+    text-transform: capitalize;
+    border: 1px solid black;
+}
+
+th {
+    padding:0;
+    margin:0;
+}
+
+td {
+    *border: solid 1px black;
+    padding: 0 0 0 30px;
+    margin: 0;
+}
+
